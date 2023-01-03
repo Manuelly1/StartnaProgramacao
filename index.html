@@ -1,18 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso python e django amanhã</title>
+    <title>Calculador de Gorjetas</title>
 </head>
-<div>
-    <h1>Algum título aqui</h1>
-        <h2>OUtro Título aqui</h2>
-        <li>Manuelly é cabeça quente porém muito amável</li>
-
-</div>
 <body>
-    
+    <div>
+        <h1>Calculadora de Gorjetas</h1>
+    </div>
+    <div>
+        <form>
+            <label for="bill">
+                <p>Quanto ficou a conta?</p>
+            </label>
+            <p>
+                R$ <input type="number" placeholder="100" name="bill" id="bill">
+            </p>
+            <label for="serviceQuality">
+                <p>Como foi seu serviço?</p>
+            </label>
+            <p>
+                <select name="serviceQuality" id="serviceQuality">
+                    <option disabled selected value="0">Escolha uma opção</option>
+                    <option value="0.3">30% - Incrível</option>
+                    <option value="0.2">20% - Bom</option>
+                    <option value="0.15">15% - Aceitável</option>
+                    <option value="0.1">10% - Ruim</option>
+                    <option value="0.05">05% - Péssimo</option>
+                </select>
+            </p>
+            <label for="people">
+                <p>Quantas pessoas vão dividir a conta?</p>
+            </label>
+            <p>
+                <input type="number" placeholder="1" name="people" id="people">pessoa(s)
+            </p>
+            <button type="submit">Calcular</button>
+        </form>
+    </div>   
 </body>
 </html>
