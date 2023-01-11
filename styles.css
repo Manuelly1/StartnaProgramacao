@@ -67,3 +67,9 @@ body {
     font-size: 17px;
     color: white;
 }
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
