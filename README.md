@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto é uma calculadora de gorjetas. É um projeto simples, pois foi feito para ter um primeiro contato com essas linguagens
+Este projeto é uma calculadora de gorjetas. É um projeto simples, pois é promovido justamente para que os ingressantes na área tenham um primeiro contato com essas linguagens
 
 ## :memo: Licença
 
